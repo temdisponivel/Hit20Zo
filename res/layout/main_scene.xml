@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <LinearLayout
+        android:id="@+id/linear_hud"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="9" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="3" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:gravity="right|center_vertical"
+                android:text="@string/lbl_hit"
+                android:textColor="@color/green"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/lbl_hit"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:textSize="24dp"
+                android:textColor="@color/green"
+                android:gravity="right|center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="3" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:gravity="right|center_vertical"
+                android:textSize="24dp"
+                android:textColor="@color/red"
+                android:text="@string/lbl_miss" />
+
+            <TextView
+                android:id="@+id/lbl_miss"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:textSize="24dp"
+                android:textColor="@color/red"
+                android:gravity="right|center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="3" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:gravity="right|center_vertical"
+                android:textSize="24dp"
+                android:textColor="@color/blue"
+                android:text="@string/lbl_hud" />
+
+            <TextView
+                android:id="@+id/lbl_score"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:textSize="24dp"
+                android:textColor="@color/blue"
+                android:gravity="right|center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:weightSum="9" >
+
+        <ImageButton
+            android:id="@+id/hole_top_1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/hole_top_2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/hole_top_3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_mid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:weightSum="9" >
+
+        <ImageButton
+            android:id="@+id/hole_mid_1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/hole_mid_2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/hole_mid_3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:weightSum="9" >
+
+        <ImageButton
+            android:id="@+id/hole_bottom_1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/hole_bottom_2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/hole_bottom_3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+</LinearLayout>
