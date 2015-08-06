@@ -3,4 +3,9 @@
     <string name="lbl_hud">Score: </string>
     <string name="lbl_hit">Hit: </string>
     <string name="lbl_miss">Miss: </string>
+    <string name="lbl_lose">Loser! I won. HAHAHA </string>
+    <string name="btn_start">Start</string>
+    <string name="btn_close">Quit</string>
+    <string name="chk_sound">Play with sound</string>
+    <string name="chk_vibrate">Play with vibrate</string>
 </resources>
